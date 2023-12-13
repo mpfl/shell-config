@@ -44,10 +44,10 @@ disabled = false
 # represents the current operating system
 [os]
 style = "bg:#9A348E"
-disabled = true # Disabled by default
+disabled = false # Disabled by default
 
 [hostname]
-format = '[$ssh_symbol$hostname ]($style)'
+format = '[@$hostname ]($style)'
 ssh_symbol = '🌏 '
 style = "bg:#9A348E"
 
