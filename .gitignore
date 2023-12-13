@@ -3,4 +3,5 @@
 !.bash_logout
 !.config
 !.config/starship.toml
+!.gitconfig
 !.gitignore
