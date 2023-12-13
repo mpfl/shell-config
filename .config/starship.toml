@@ -1,4 +1,5 @@
 format = """
+$cmd_duration\
 [](#9A348E)\
 $os\
 $username\
@@ -30,6 +31,13 @@ $time\
 
 # Disable the blank line at the start of the prompt
 # add_newline = false
+
+# Add duration of last command if it takes a while
+[cmd_duration]
+format = """
+Took [$duration]($style)
+\
+"""
 
 # You can also replace your username with a neat symbol like   or disable this
 # and use the os module below
@@ -93,11 +101,11 @@ format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
 symbol = ""
-style = "bg:#FCA17D"
+style = "fg:black bg:#FCA17D"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#FCA17D"
+style = "fg:black bg:#FCA17D"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
