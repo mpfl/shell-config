@@ -47,7 +47,8 @@ style = "bg:#9A348E"
 disabled = false # Disabled by default
 
 [hostname]
-format = '[@$hostname ]($style)'
+format = '[$ssh_symbol$hostname ]($style)'
+ssh_only = false
 ssh_symbol = '🌏 '
 style = "bg:#9A348E"
 
