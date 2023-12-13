@@ -3,5 +3,7 @@
 !.bash_logout
 !.config
 !.config/starship.toml
+!.config/fish
+!.config/fish/*
 !.gitconfig
 !.gitignore
