@@ -4,6 +4,7 @@
 !.config
 !.config/starship.toml
 !.config/fish
+!.config/fish/config.fish
 !.config/fish/conf.d
 !.config/fish/conf.d/*
 !.gitconfig
