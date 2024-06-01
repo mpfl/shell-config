@@ -3,5 +3,4 @@ if status is-interactive
     starship init fish | source
 end
 
-# Created by `pipx` on 2024-02-02 07:13:16
 set PATH $PATH /home/mpfl/.local/bin
